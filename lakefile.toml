@@ -1,0 +1,10 @@
+name = "lean-notes"
+version = "0.1.0"
+defaultTargets = ["lean-notes"]
+
+[[lean_lib]]
+name = "LeanNotes"
+
+[[lean_exe]]
+name = "lean-notes"
+root = "Main"
